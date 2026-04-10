@@ -126,9 +126,26 @@ function createPublicationElement(publication) {
   
   const venue = document.createElement('div');
   venue.className = 'pub-venue';
-  venue.textContent = publication.venue;
+
+  // build inline HTML
+  let venueHTML = publication.venue;
+
+  // append links inline
+  if (publication.links) {
+    if (publication.links.pdf) {
+      venueHTML += ` <a class="pub-link-inline" href="${publication.links.pdf}">[PDF]</a>`;
+    }
+    if (publication.links.code) {
+      venueHTML += ` <a class="pub-link-inline" href="${publication.links.code}">[Code]</a>`;
+    }
+    if (publication.links.project) {
+      venueHTML += ` <a class="pub-link-inline" href="${publication.links.project}">[Project]</a>`;
+    }
+  }
+
+  venue.innerHTML = venueHTML;
   venueContainer.appendChild(venue);
-  
+
   // Add award if it exists
   if (publication.award && publication.award.length > 0) {
     const award = document.createElement('div');
@@ -140,33 +157,7 @@ function createPublicationElement(publication) {
   content.appendChild(venueContainer);
   
   // Add links if they exist
-  if (publication.links) {
-    const links = document.createElement('div');
-    links.className = 'pub-links';
-    
-    if (publication.links.pdf) {
-      const pdfLink = document.createElement('a');
-      pdfLink.href = publication.links.pdf;
-      pdfLink.textContent = '[PDF]';
-      links.appendChild(pdfLink);
-    }
-    
-    if (publication.links.code) {
-      const codeLink = document.createElement('a');
-      codeLink.href = publication.links.code;
-      codeLink.textContent = '[Code]';
-      links.appendChild(codeLink);
-    }
-    
-    if (publication.links.project) {
-      const projectLink = document.createElement('a');
-      projectLink.href = publication.links.project;
-      projectLink.textContent = '[Project Page]';
-      links.appendChild(projectLink);
-    }
-    
-    content.appendChild(links);
-  }
+
   
   // Assemble the publication item
   pubItem.appendChild(thumbnail);

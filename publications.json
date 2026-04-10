@@ -1,52 +1,99 @@
 {
   "publications": [
     {
-      "title": "[Paper Title 1]",
+      "title": "Precise and Interpretable Editing of Code Knowledge in Large Language Models",
       "authors": [
-        "Author 1*",
-        "Author 2*",
-        "Author 3",
-        "Author 4",
-        "Author 5",
-        "Author 6",
-        "Author 7",
-        "Author 8",
-        "Author 9",
-        "Author 10",
-        "Author 11†",
-        "Author 12†"
+      "Min Xue", "Nikolai Bolik", "Lennart Stöpler", "Erik Imgrund", "Janik Schmid", "Artur Andrzejak"
       ],
-      "venue": "Preprint (2025)",
-      "thumbnail": "images/thumbs/1.jpg",
+      "venue": "International Conference on Learning Representations (ICLR), 2026",
       "selected": 1,
       "award": "",
       "links": {
-        "pdf": "#",
-        "code": "#",
-        "project": "#"
+        "pdf": "https://openreview.net/pdf?id=diVf17SNek"
       }
     },
     {
-      "title": "[Paper Title 2]",
+      "title": "Explainable AI Based Feature Selection Method for Energy Harvesting Assisted IoT Network",
       "authors": [
-        "Author 1*",
-        "Author 2*",
-        "Author 3",
-        "Author 4",
-        "Author 5",
-        "Author 6",
-        "Author 7",
-        "Author 8",
-        "Author 9",
-        "Author 10",
-        "Author 11"
+        "Huijun Tang", "Wang Zeng", "Min Xue", "Junhui Du", "Zhizhou He", "Pengfei Jiao", "Huaming Wu", "Hongjian Sun"
       ],
-      "venue": "Preprint (2025)",
-      "thumbnail": "images/thumbs/2.jpg",
+      "venue": "15th International Symposium on Communication Systems, Networks and Digital Signal Processing, 2026",
       "selected": 0,
       "award": "",
       "links": {
         "pdf": "#"
+      }
+    },
+    {
+      "title": "A Consistent Pattern for Identifying Decisive Code Snippets for LLM-Based Code Inference",
+      "authors": [
+        "Min Xue",
+        "Artur Andrzejak"
+      ],
+      "venue": "Preprint, 2025",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://openreview.net/pdf?id=QgA0auXUU0"
+      }
+    },
+    {
+      "title": "An Interpretable Error Correction Method for Enhancing Code-to-Code Translation",
+      "authors": [
+        "Min Xue",
+        "Artur Andrzejak",
+        "Marla Leuther"
+      ],
+      "venue": "International Conference on Learning Representations (ICLR), 2024",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://openreview.net/pdf?id=fVxIEHGnVT"
+      }
+    },
+    {
+      "title": "DNN Migration in IoTs: Emerging Technologies, Current Challenges, and Open Research Directions",
+      "authors": [
+        "Min Xue",
+        "Huaming Wu",
+        "Ruidong Li"
+      ],
+      "venue": "IEEE Consumer Electronics Magazine, vol. 12, no. 3, pp. 28–38, 2023",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://cam.tju.edu.cn/homepage/wuhuaming/PDF/CEMAG.pdf"
+      }
+    },
+    {
+      "title": "DDPQN: An Efficient DNN Offloading Strategy in Local-Edge-Cloud Collaborative Environments",
+      "authors": [
+        "Min Xue",
+        "Huaming Wu*",
+        "Guang Peng",
+        "Katinka Wolter"
+      ],
+      "venue": "IEEE Transactions on Services Computing, vol. 15, no. 2, pp. 640–655, 2022",
+      "selected": 1,
+      "award": "Ranked among the 50 Most Popular Articles",
+      "links": {
+        "pdf": "https://cam.tju.edu.cn/homepage/wuhuaming/PDF/TSC.pdf"
+      }
+    },
+    {
+      "title": "EosDNN: An Efficient Offloading Scheme for DNN Inference Acceleration in Local-Edge-Cloud Collaborative Environments",
+      "authors": [
+        "Min Xue",
+        "Huaming Wu",
+        "Ruidong Li",
+        "Minxian Xu",
+        "Pengfei Jiao"
+      ],
+      "venue": "IEEE Transactions on Green Communications and Networking, vol. 6, no. 1, pp. 248–264, 2022",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://cam.tju.edu.cn/homepage/wuhuaming/PDF/TGCN.pdf"
       }
     }
   ]
